@@ -5,6 +5,11 @@ import { DataMockService } from './dataMock.service';
 export class DataMockController {
   constructor(private readonly dataMockService: DataMockService) {}
 
+  @Get("/fundBasicInfo") // http://localhost:6006/api/mock/fundOverview/fundBasicInfo
+  getFundBasicInfo() {
+    return this.dataMockService.getFundBasicInfo();
+  }
+
   @Get("/realTimeValuation") // http://localhost:6006/api/mock/fundOverview/realTimeValuation
   getRealTimeValuationArr() {
     return this.dataMockService.getRealTimeValuation();
