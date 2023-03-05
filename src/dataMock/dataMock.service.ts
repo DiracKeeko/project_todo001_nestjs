@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { FundBasicInfo, RealTimeValuationItem } from './constant';
-import { fundBasicInfo, realTimeValuationArr } from './data';
+import { FundBasicInfo, RealTimeValuationItem, PerformanceSummary } from './constant';
+import { fundBasicInfo, realTimeValuationArr, performanceSummary } from './data';
 
 @Injectable()
 export class DataMockService {
@@ -12,5 +12,8 @@ export class DataMockService {
   }
   getRealTimeValuation(): RealTimeValuationItem[] {
     return realTimeValuationArr;
+  }
+  getPerformanceSummary(): PerformanceSummary {
+    return performanceSummary;
   }
 }

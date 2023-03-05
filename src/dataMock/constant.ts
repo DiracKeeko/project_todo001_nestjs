@@ -51,4 +51,258 @@ type RealTimeValuationItem = {
   estimatedChange: number;
 };
 
-export type { FundBasicInfo, RealTimeValuationItem };
+type PerformanceSummary = {
+  nav: {
+    orderBookId: string;
+    datetime: string;
+    adjustedNetValue: number;
+  }[];
+  drawdownHistory: {
+    date: string;
+    value: number;
+  }[];
+  benchmarkName: string;
+  benchmarkPrice: {
+    orderBookId: string;
+    date: string;
+    close: number;
+  }[];
+  periodReturn: (
+    | {
+        name: string;
+        fund: number;
+        average: number;
+        rank: string;
+      }
+    | {
+        name: string;
+        fund?: undefined;
+        average: number;
+        rank: string;
+      }
+  )[];
+  quarterReturn: {
+    name: string;
+    fund: number;
+    average: number;
+    rank: string;
+  }[];
+  yearReturn: {
+    name: string;
+    fund: number;
+    average: number;
+    rank: string;
+  }[];
+  indicators: (
+    | {
+        returnD: number;
+        returnA: number;
+        excess: number;
+        excessA: number;
+        excessWin: number;
+        posPeriod: number;
+        posReturnRatio: number;
+        maxRisePeriod: number;
+        alphaA: number;
+        beta: number;
+        inNewHighRate: number;
+        exNewHighRate: number;
+        stdev: number;
+        stdevA: number;
+        downStdevAvg: number;
+        mdd: number;
+        maxDrop: number;
+        maxDropPeriod: number;
+        negReturnRatio: number;
+        trackingError: number;
+        vaR: number;
+        sharpeA: number;
+        infA: number;
+        sorA: number;
+        calmarA: number;
+        period: string;
+        recoveryDays?: undefined;
+      }
+    | {
+        returnD: number;
+        returnA: number;
+        excess: number;
+        excessA: number;
+        excessWin: number;
+        posPeriod: number;
+        posReturnRatio: number;
+        maxRisePeriod: number;
+        alphaA: number;
+        beta: number;
+        inNewHighRate: number;
+        exNewHighRate: number;
+        stdev: number;
+        stdevA: number;
+        downStdevAvg: number;
+        mdd: number;
+        recoveryDays: number;
+        maxDrop: number;
+        maxDropPeriod: number;
+        negReturnRatio: number;
+        trackingError: number;
+        vaR: number;
+        sharpeA: number;
+        infA: number;
+        sorA: number;
+        calmarA: number;
+        period: string;
+      }
+    | {
+        period: string;
+        returnD?: undefined;
+        returnA?: undefined;
+        excess?: undefined;
+        excessA?: undefined;
+        excessWin?: undefined;
+        posPeriod?: undefined;
+        posReturnRatio?: undefined;
+        maxRisePeriod?: undefined;
+        alphaA?: undefined;
+        beta?: undefined;
+        inNewHighRate?: undefined;
+        exNewHighRate?: undefined;
+        stdev?: undefined;
+        stdevA?: undefined;
+        downStdevAvg?: undefined;
+        mdd?: undefined;
+        maxDrop?: undefined;
+        maxDropPeriod?: undefined;
+        negReturnRatio?: undefined;
+        trackingError?: undefined;
+        vaR?: undefined;
+        sharpeA?: undefined;
+        infA?: undefined;
+        sorA?: undefined;
+        calmarA?: undefined;
+        recoveryDays?: undefined;
+      }
+  )[];
+  mean: {
+    returnD: number;
+    returnA: number;
+    excess: number;
+    excessA: number;
+    excessWin: number;
+    posPeriod: number;
+    posReturnRatio: number;
+    maxRisePeriod: number;
+    alphaA: number;
+    beta: number;
+    inNewHighRate: number;
+    exNewHighRate: number;
+    stdev: number;
+    stdevA: number;
+    downStdevAvg: number;
+    mdd: number;
+    recoveryDays: number;
+    maxDrop: number;
+    maxDropPeriod: number;
+    negReturnRatio: number;
+    trackingError: number;
+    vaR: number;
+    sharpeA: number;
+    infA: number;
+    sorA: number;
+    calmarA: number;
+    period: string;
+  }[];
+  rank: (
+    | {
+        count: number;
+        returnD: number;
+        returnA: number;
+        excess: number;
+        excessA: number;
+        excessWin: number;
+        posPeriod: number;
+        posReturnRatio: number;
+        maxRisePeriod: number;
+        alphaA: number;
+        beta: number;
+        inNewHighRate: number;
+        exNewHighRate: number;
+        stdev: number;
+        stdevA: number;
+        downStdevAvg: number;
+        mdd: number;
+        maxDrop: number;
+        maxDropPeriod: number;
+        negReturnRatio: number;
+        trackingError: number;
+        vaR: number;
+        sharpeA: number;
+        infA: number;
+        sorA: number;
+        calmarA: number;
+        period: string;
+        recoveryDays?: undefined;
+      }
+    | {
+        count: number;
+        returnD: number;
+        returnA: number;
+        excess: number;
+        excessA: number;
+        excessWin: number;
+        posPeriod: number;
+        posReturnRatio: number;
+        maxRisePeriod: number;
+        alphaA: number;
+        beta: number;
+        inNewHighRate: number;
+        exNewHighRate: number;
+        stdev: number;
+        stdevA: number;
+        downStdevAvg: number;
+        mdd: number;
+        recoveryDays: number;
+        maxDrop: number;
+        maxDropPeriod: number;
+        negReturnRatio: number;
+        trackingError: number;
+        vaR: number;
+        sharpeA: number;
+        infA: number;
+        sorA: number;
+        calmarA: number;
+        period: string;
+      }
+    | {
+        count: number;
+        period: string;
+        returnD?: undefined;
+        returnA?: undefined;
+        excess?: undefined;
+        excessA?: undefined;
+        excessWin?: undefined;
+        posPeriod?: undefined;
+        posReturnRatio?: undefined;
+        maxRisePeriod?: undefined;
+        alphaA?: undefined;
+        beta?: undefined;
+        inNewHighRate?: undefined;
+        exNewHighRate?: undefined;
+        stdev?: undefined;
+        stdevA?: undefined;
+        downStdevAvg?: undefined;
+        mdd?: undefined;
+        maxDrop?: undefined;
+        maxDropPeriod?: undefined;
+        negReturnRatio?: undefined;
+        trackingError?: undefined;
+        vaR?: undefined;
+        sharpeA?: undefined;
+        infA?: undefined;
+        sorA?: undefined;
+        calmarA?: undefined;
+        recoveryDays?: undefined;
+      }
+  )[];
+};
+
+export type { FundBasicInfo, RealTimeValuationItem, PerformanceSummary };
