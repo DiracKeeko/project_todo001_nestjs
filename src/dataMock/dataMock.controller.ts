@@ -20,6 +20,11 @@ export class DataMockController {
     return this.dataMockService.getPerformanceSummary();
   }
 
+  @Get("/holdingAnalysis")
+  getHoldingAnalysis() {
+    return this.dataMockService.getHoldingAnalysis();
+  }
+
   @Get("/") // http://localhost:6006/api/mock/fundOverview
   getDataMock(): string {
     return this.dataMockService.getDataMock();

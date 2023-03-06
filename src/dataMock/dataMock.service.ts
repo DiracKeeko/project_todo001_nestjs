@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { FundBasicInfo, RealTimeValuationItem, PerformanceSummary } from './constant';
-import { fundBasicInfo, realTimeValuationArr, performanceSummary } from './data';
+import { FundBasicInfo, RealTimeValuationItem, PerformanceSummary, HoldingAnalysis } from './constant';
+import { fundBasicInfo, realTimeValuationArr, performanceSummary, holdingAnalysis } from './data';
 
 @Injectable()
 export class DataMockService {
@@ -15,5 +15,8 @@ export class DataMockService {
   }
   getPerformanceSummary(): PerformanceSummary {
     return performanceSummary;
+  }
+  getHoldingAnalysis(): HoldingAnalysis {
+    return holdingAnalysis;
   }
 }

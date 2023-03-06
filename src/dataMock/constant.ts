@@ -305,4 +305,91 @@ type PerformanceSummary = {
   )[];
 };
 
-export type { FundBasicInfo, RealTimeValuationItem, PerformanceSummary };
+type HoldingAnalysis = {
+  orderBookId: string;
+  symbol: string;
+  sizeHistory: {
+      date: string;
+      value: number;
+  }[];
+  assetAllocationHistory: ({
+      orderBookId: string;
+      date: string;
+      stock: number;
+      bond: number;
+      cash: number;
+      other: number;
+  } | {
+      orderBookId: string;
+      date: string;
+      stock: number;
+      cash: number;
+      other: number;
+      bond?: undefined;
+  })[];
+  bondTypeHistory: {
+      date: string;
+      data: {
+          bondType: string;
+          weight: number;
+      }[];
+  }[];
+  stockIndustryHistory: {
+      date: string;
+      data: {
+          stockIndustry: string;
+          weight: number;
+      }[];
+  }[];
+  heavyweight: ({
+      orderBookId: string;
+      date: string;
+      bond: any[];
+      stock: ({
+          stockId: string;
+          symbol: string;
+          weight: number;
+          isHistory: boolean;
+          change: number;
+          latestPrice?: undefined;
+      } | {
+          stockId: string;
+          symbol: string;
+          weight: number;
+          isHistory: boolean;
+          change: number;
+          latestPrice: number;
+      })[];
+      quarter: string;
+  } | {
+      orderBookId: string;
+      date: string;
+      bond: {
+          bondId: string;
+          symbol: string;
+          type: string;
+          weight: number;
+          change: number;
+          issuer: string;
+          issuerRating: string;
+      }[];
+      stock: {
+          stockId: string;
+          symbol: string;
+          weight: number;
+          isHistory: boolean;
+          change: number;
+      }[];
+      quarter: string;
+  })[];
+  holderStructure: {
+      orderBookId: string;
+      datetime: string;
+      instl: number;
+      instlWeight: number;
+      retail: number;
+      retailWeight: number;
+  }[];
+}
+
+export type { FundBasicInfo, RealTimeValuationItem, PerformanceSummary, HoldingAnalysis };

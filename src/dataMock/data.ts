@@ -1,4 +1,4 @@
-import { FundBasicInfo, RealTimeValuationItem, PerformanceSummary } from './constant';
+import { FundBasicInfo, RealTimeValuationItem, PerformanceSummary, HoldingAnalysis } from './constant';
 
 const fundBasicInfo: FundBasicInfo = {
   'orderBookId': '005827.OF',
@@ -17422,4 +17422,2200 @@ const performanceSummary: PerformanceSummary = {
   ]
 };
 
-export { fundBasicInfo, realTimeValuationArr, performanceSummary };
+const holdingAnalysis: HoldingAnalysis = {
+  'orderBookId': '005827.OF',
+  'symbol': '易方达蓝筹精选',
+  'sizeHistory': [
+    {
+      'date': '2018-12-31 00:00:00',
+      'value': 2160542033.68
+    },
+    {
+      'date': '2019-03-31 00:00:00',
+      'value': 2205822937.36
+    },
+    {
+      'date': '2019-06-30 00:00:00',
+      'value': 2441548574.65
+    },
+    {
+      'date': '2019-09-30 00:00:00',
+      'value': 6717470287.48
+    },
+    {
+      'date': '2019-12-31 00:00:00',
+      'value': 8423519967.57
+    },
+    {
+      'date': '2020-03-31 00:00:00',
+      'value': 9333958175.02
+    },
+    {
+      'date': '2020-06-30 00:00:00',
+      'value': 18218506217.23
+    },
+    {
+      'date': '2020-09-30 00:00:00',
+      'value': 33937688244.49
+    },
+    {
+      'date': '2020-12-31 00:00:00',
+      'value': 67700745571.2
+    },
+    {
+      'date': '2021-03-31 00:00:00',
+      'value': 88015706252.31
+    },
+    {
+      'date': '2021-06-30 00:00:00',
+      'value': 89888873779.67
+    },
+    {
+      'date': '2021-09-30 00:00:00',
+      'value': 69846800436.51
+    },
+    {
+      'date': '2021-12-31 00:00:00',
+      'value': 67622505261.17
+    },
+    {
+      'date': '2022-03-31 00:00:00',
+      'value': 55271761689.37
+    },
+    {
+      'date': '2022-06-30 00:00:00',
+      'value': 62778736536.61
+    },
+    {
+      'date': '2022-09-30 00:00:00',
+      'value': 53230852282.42
+    },
+    {
+      'date': '2022-12-31 00:00:00',
+      'value': 57074981815.95
+    }
+  ],
+  'assetAllocationHistory': [
+    {
+      'orderBookId': '005827.OF',
+      'date': '2018-12-31 00:00:00',
+      'stock': 0.7045220000000001,
+      'bond': 0.000278,
+      'cash': 0.11651199999999999,
+      'other': 0.00047646485648186667
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2019-03-31 00:00:00',
+      'stock': 0.926369,
+      'cash': 0.097193,
+      'other': 0.044817700788948554
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2019-06-30 00:00:00',
+      'stock': 0.9307500000000001,
+      'bond': 0.037014,
+      'cash': 0.04746,
+      'other': 0.01991765183167459
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2019-09-30 00:00:00',
+      'stock': 0.900895,
+      'bond': 0.013434999999999999,
+      'cash': 0.0703,
+      'other': 0.002377574583361704
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2019-12-31 00:00:00',
+      'stock': 0.9311820000000001,
+      'bond': 0.010714999999999999,
+      'cash': 0.076121,
+      'other': 0.0073237765788543305
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2020-03-31 00:00:00',
+      'stock': 0.945438,
+      'cash': 0.063244,
+      'other': 0.005749342626541576
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2020-06-30 00:00:00',
+      'stock': 0.9253990000000001,
+      'cash': 0.062191,
+      'other': 0.029531261428073434
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2020-09-30 00:00:00',
+      'stock': 0.9430540000000001,
+      'cash': 0.056733000000000006,
+      'other': 0.0036912907725922695
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2020-12-31 00:00:00',
+      'stock': 0.9409040000000001,
+      'cash': 0.076305,
+      'other': 0.015377021430216693
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2021-03-31 00:00:00',
+      'stock': 0.9439879999999999,
+      'cash': 0.060611,
+      'other': 0.0037907192710988392
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2021-06-30 00:00:00',
+      'stock': 0.9229689999999999,
+      'cash': 0.095277,
+      'other': 0.005347911822082844
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2021-09-30 00:00:00',
+      'stock': 0.9240600000000001,
+      'bond': 0.000032,
+      'cash': 0.07976899999999999,
+      'other': 0.003744323922149042
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2021-12-31 00:00:00',
+      'stock': 0.945444,
+      'cash': 0.057849000000000005,
+      'other': 0.00006600151699134866
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2022-03-31 00:00:00',
+      'stock': 0.939735,
+      'cash': 0.06521099999999999,
+      'other': 0.0010363202186662365
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2022-06-30 00:00:00',
+      'stock': 0.941048,
+      'cash': 0.064316,
+      'other': 0.010009001643630893
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2022-09-30 00:00:00',
+      'stock': 0.9432689999999999,
+      'cash': 0.056631999999999995,
+      'other': 0.003335476906287213
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2022-12-31 00:00:00',
+      'stock': 0.946953,
+      'cash': 0.053913,
+      'other': 0.0025468201200438954
+    }
+  ],
+  'bondTypeHistory': [
+    {
+      'date': '2018-12-31 00:00:00',
+      'data': [
+        {
+          'bondType': '可转换债券',
+          'weight': 0.000278
+        }
+      ]
+    },
+    {
+      'date': '2019-06-30 00:00:00',
+      'data': [
+        {
+          'bondType': '金融债券',
+          'weight': 0.037014
+        }
+      ]
+    },
+    {
+      'date': '2019-09-30 00:00:00',
+      'data': [
+        {
+          'bondType': '金融债券',
+          'weight': 0.013435
+        }
+      ]
+    },
+    {
+      'date': '2019-12-31 00:00:00',
+      'data': [
+        {
+          'bondType': '金融债券',
+          'weight': 0.010715
+        }
+      ]
+    },
+    {
+      'date': '2021-09-30 00:00:00',
+      'data': [
+        {
+          'bondType': '可转换债券',
+          'weight': 0.000032
+        }
+      ]
+    }
+  ],
+  'stockIndustryHistory': [
+    {
+      'date': '2018-12-31 00:00:00',
+      'data': [
+        {
+          'stockIndustry': '消费',
+          'weight': 0.26269999999999993
+        },
+        {
+          'stockIndustry': '港股',
+          'weight': 0.259
+        },
+        {
+          'stockIndustry': 'TMT',
+          'weight': 0.0854
+        },
+        {
+          'stockIndustry': '医药生物',
+          'weight': 0.052500000000000005
+        },
+        {
+          'stockIndustry': '公用事业',
+          'weight': 0.0446
+        },
+        {
+          'stockIndustry': '制造',
+          'weight': 0.0001
+        },
+        {
+          'stockIndustry': '金融地产',
+          'weight': 0.0001
+        },
+        {
+          'stockIndustry': '周期',
+          'weight': 0
+        }
+      ]
+    },
+    {
+      'date': '2019-03-31 00:00:00',
+      'data': [
+        {
+          'stockIndustry': '港股',
+          'weight': 0.36110000000000003
+        },
+        {
+          'stockIndustry': '消费',
+          'weight': 0.2802
+        },
+        {
+          'stockIndustry': '医药生物',
+          'weight': 0.0632
+        },
+        {
+          'stockIndustry': '公用事业',
+          'weight': 0.0564
+        }
+      ]
+    },
+    {
+      'date': '2019-06-30 00:00:00',
+      'data': [
+        {
+          'stockIndustry': '港股',
+          'weight': 0.38910000000000006
+        },
+        {
+          'stockIndustry': '消费',
+          'weight': 0.36069999999999997
+        },
+        {
+          'stockIndustry': '公用事业',
+          'weight': 0.1245
+        },
+        {
+          'stockIndustry': '医药生物',
+          'weight': 0.0562
+        },
+        {
+          'stockIndustry': '周期',
+          'weight': 0.0001
+        },
+        {
+          'stockIndustry': 'TMT',
+          'weight': 0
+        },
+        {
+          'stockIndustry': '制造',
+          'weight': 0
+        },
+        {
+          'stockIndustry': '金融地产',
+          'weight': 0
+        }
+      ]
+    },
+    {
+      'date': '2019-09-30 00:00:00',
+      'data': [
+        {
+          'stockIndustry': '港股',
+          'weight': 0.41230000000000006
+        },
+        {
+          'stockIndustry': '消费',
+          'weight': 0.276
+        },
+        {
+          'stockIndustry': '医药生物',
+          'weight': 0.0541
+        },
+        {
+          'stockIndustry': '公用事业',
+          'weight': 0.051100000000000007
+        }
+      ]
+    },
+    {
+      'date': '2019-12-31 00:00:00',
+      'data': [
+        {
+          'stockIndustry': '港股',
+          'weight': 0.44570000000000004
+        },
+        {
+          'stockIndustry': '消费',
+          'weight': 0.3458
+        },
+        {
+          'stockIndustry': '医药生物',
+          'weight': 0.08009999999999999
+        },
+        {
+          'stockIndustry': '公用事业',
+          'weight': 0.056100000000000004
+        },
+        {
+          'stockIndustry': 'TMT',
+          'weight': 0.0031
+        },
+        {
+          'stockIndustry': '制造',
+          'weight': 0
+        }
+      ]
+    },
+    {
+      'date': '2020-03-31 00:00:00',
+      'data': [
+        {
+          'stockIndustry': '港股',
+          'weight': 0.41600000000000004
+        },
+        {
+          'stockIndustry': '消费',
+          'weight': 0.2891
+        },
+        {
+          'stockIndustry': '医药生物',
+          'weight': 0.0775
+        },
+        {
+          'stockIndustry': '公用事业',
+          'weight': 0.0426
+        }
+      ]
+    },
+    {
+      'date': '2020-06-30 00:00:00',
+      'data': [
+        {
+          'stockIndustry': '港股',
+          'weight': 0.38439999999999996
+        },
+        {
+          'stockIndustry': '消费',
+          'weight': 0.38259999999999994
+        },
+        {
+          'stockIndustry': '医药生物',
+          'weight': 0.1151
+        },
+        {
+          'stockIndustry': '金融地产',
+          'weight': 0.0361
+        },
+        {
+          'stockIndustry': '公用事业',
+          'weight': 0.0062
+        },
+        {
+          'stockIndustry': '制造',
+          'weight': 0.0007000000000000001
+        },
+        {
+          'stockIndustry': '周期',
+          'weight': 0.0001
+        },
+        {
+          'stockIndustry': 'TMT',
+          'weight': 0
+        }
+      ]
+    },
+    {
+      'date': '2020-09-30 00:00:00',
+      'data': [
+        {
+          'stockIndustry': '消费',
+          'weight': 0.3827
+        },
+        {
+          'stockIndustry': '港股',
+          'weight': 0.2868
+        },
+        {
+          'stockIndustry': '医药生物',
+          'weight': 0.048499999999999995
+        },
+        {
+          'stockIndustry': 'TMT',
+          'weight': 0.042699999999999995
+        }
+      ]
+    },
+    {
+      'date': '2020-12-31 00:00:00',
+      'data': [
+        {
+          'stockIndustry': '消费',
+          'weight': 0.41090000000000004
+        },
+        {
+          'stockIndustry': '港股',
+          'weight': 0.3952
+        },
+        {
+          'stockIndustry': '医药生物',
+          'weight': 0.0645
+        },
+        {
+          'stockIndustry': 'TMT',
+          'weight': 0.05109999999999999
+        },
+        {
+          'stockIndustry': '金融地产',
+          'weight': 0.0175
+        },
+        {
+          'stockIndustry': '周期',
+          'weight': 0.0013
+        },
+        {
+          'stockIndustry': '公用事业',
+          'weight': 0
+        },
+        {
+          'stockIndustry': '制造',
+          'weight': 0
+        }
+      ]
+    },
+    {
+      'date': '2021-03-31 00:00:00',
+      'data': [
+        {
+          'stockIndustry': '消费',
+          'weight': 0.3221
+        },
+        {
+          'stockIndustry': '港股',
+          'weight': 0.31970000000000004
+        },
+        {
+          'stockIndustry': '金融地产',
+          'weight': 0.09809999999999999
+        },
+        {
+          'stockIndustry': 'TMT',
+          'weight': 0.0572
+        }
+      ]
+    },
+    {
+      'date': '2021-06-30 00:00:00',
+      'data': [
+        {
+          'stockIndustry': '消费',
+          'weight': 0.3929
+        },
+        {
+          'stockIndustry': '港股',
+          'weight': 0.33759999999999996
+        },
+        {
+          'stockIndustry': '金融地产',
+          'weight': 0.09129999999999999
+        },
+        {
+          'stockIndustry': 'TMT',
+          'weight': 0.06470000000000001
+        },
+        {
+          'stockIndustry': '医药生物',
+          'weight': 0.03620000000000001
+        },
+        {
+          'stockIndustry': '周期',
+          'weight': 0.0002
+        },
+        {
+          'stockIndustry': '公用事业',
+          'weight': 0.0001
+        },
+        {
+          'stockIndustry': '制造',
+          'weight': 0
+        }
+      ]
+    },
+    {
+      'date': '2021-09-30 00:00:00',
+      'data': [
+        {
+          'stockIndustry': '消费',
+          'weight': 0.4486
+        },
+        {
+          'stockIndustry': '港股',
+          'weight': 0.2002
+        },
+        {
+          'stockIndustry': '金融地产',
+          'weight': 0.13440000000000002
+        },
+        {
+          'stockIndustry': 'TMT',
+          'weight': 0.09759999999999999
+        }
+      ]
+    },
+    {
+      'date': '2021-12-31 00:00:00',
+      'data': [
+        {
+          'stockIndustry': '消费',
+          'weight': 0.4512
+        },
+        {
+          'stockIndustry': '港股',
+          'weight': 0.258
+        },
+        {
+          'stockIndustry': '金融地产',
+          'weight': 0.1313
+        },
+        {
+          'stockIndustry': 'TMT',
+          'weight': 0.1043
+        },
+        {
+          'stockIndustry': '医药生物',
+          'weight': 0.0005
+        },
+        {
+          'stockIndustry': '公用事业',
+          'weight': 0
+        },
+        {
+          'stockIndustry': '制造',
+          'weight': 0
+        },
+        {
+          'stockIndustry': '周期',
+          'weight': 0
+        }
+      ]
+    },
+    {
+      'date': '2022-03-31 00:00:00',
+      'data': [
+        {
+          'stockIndustry': '消费',
+          'weight': 0.44620000000000004
+        },
+        {
+          'stockIndustry': '港股',
+          'weight': 0.2372
+        },
+        {
+          'stockIndustry': '金融地产',
+          'weight': 0.0974
+        },
+        {
+          'stockIndustry': 'TMT',
+          'weight': 0.0935
+        }
+      ]
+    },
+    {
+      'date': '2022-06-30 00:00:00',
+      'data': [
+        {
+          'stockIndustry': '消费',
+          'weight': 0.46799999999999997
+        },
+        {
+          'stockIndustry': '港股',
+          'weight': 0.3476
+        },
+        {
+          'stockIndustry': '金融地产',
+          'weight': 0.07730000000000001
+        },
+        {
+          'stockIndustry': '医药生物',
+          'weight': 0.034499999999999996
+        },
+        {
+          'stockIndustry': 'TMT',
+          'weight': 0.0139
+        },
+        {
+          'stockIndustry': '公用事业',
+          'weight': 0
+        },
+        {
+          'stockIndustry': '制造',
+          'weight': 0
+        },
+        {
+          'stockIndustry': '周期',
+          'weight': 0
+        }
+      ]
+    },
+    {
+      'date': '2022-09-30 00:00:00',
+      'data': [
+        {
+          'stockIndustry': '消费',
+          'weight': 0.4683
+        },
+        {
+          'stockIndustry': '港股',
+          'weight': 0.26760000000000006
+        },
+        {
+          'stockIndustry': '金融地产',
+          'weight': 0.0727
+        }
+      ]
+    },
+    {
+      'date': '2022-12-31 00:00:00',
+      'data': [
+        {
+          'stockIndustry': '消费',
+          'weight': 0.4354
+        },
+        {
+          'stockIndustry': '港股',
+          'weight': 0.2938
+        },
+        {
+          'stockIndustry': '金融地产',
+          'weight': 0.0751
+        }
+      ]
+    }
+  ],
+  'heavyweight': [
+    {
+      'orderBookId': '005827.OF',
+      'date': '2022-12-31 00:00:00',
+      'bond': [],
+      'stock': [
+        {
+          'stockId': '0700.HK',
+          'symbol': '腾讯控股',
+          'weight': 0.09880000000000001,
+          'isHistory': true,
+          'change': 0.008300000000000002
+        },
+        {
+          'stockId': '000858.SZ',
+          'symbol': '五粮液',
+          'weight': 0.09720000000000001,
+          'isHistory': true,
+          'change': -0.001999999999999988,
+          'latestPrice': 206.24
+        },
+        {
+          'stockId': '002304.SZ',
+          'symbol': '洋河股份',
+          'weight': 0.0934,
+          'isHistory': true,
+          'change': -0.005199999999999996,
+          'latestPrice': 172.41
+        },
+        {
+          'stockId': '600519.SH',
+          'symbol': '贵州茅台',
+          'weight': 0.0917,
+          'isHistory': true,
+          'change': -0.007499999999999993,
+          'latestPrice': 1828
+        },
+        {
+          'stockId': '000568.SZ',
+          'symbol': '泸州老窖',
+          'weight': 0.0901,
+          'isHistory': true,
+          'change': -0.009299999999999989,
+          'latestPrice': 254.96
+        },
+        {
+          'stockId': '0388.HK',
+          'symbol': '香港交易所',
+          'weight': 0.0823,
+          'isHistory': true,
+          'change': 0.01079999999999999
+        },
+        {
+          'stockId': '600036.SH',
+          'symbol': '招商银行',
+          'weight': 0.0751,
+          'isHistory': true,
+          'change': 0.0023999999999999994,
+          'latestPrice': 38.25
+        },
+        {
+          'stockId': '600887.SH',
+          'symbol': '伊利股份',
+          'weight': 0.063,
+          'isHistory': true,
+          'change': -0.008900000000000005,
+          'latestPrice': 31.14
+        },
+        {
+          'stockId': '3690.HK',
+          'symbol': '美团-W',
+          'weight': 0.0602,
+          'isHistory': true,
+          'change': -0.001700000000000007
+        },
+        {
+          'stockId': '2269.HK',
+          'symbol': '药明生物',
+          'weight': 0.0525,
+          'isHistory': true,
+          'change': 0.008799999999999995
+        }
+      ],
+      'quarter': '2022Q4'
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2022-09-30 00:00:00',
+      'bond': [],
+      'stock': [
+        {
+          'stockId': '000568.SZ',
+          'symbol': '泸州老窖',
+          'weight': 0.09939999999999999,
+          'isHistory': true,
+          'change': 0.0004999999999999866
+        },
+        {
+          'stockId': '000858.SZ',
+          'symbol': '五粮液',
+          'weight': 0.0992,
+          'isHistory': true,
+          'change': -0.00019999999999999185
+        },
+        {
+          'stockId': '600519.SH',
+          'symbol': '贵州茅台',
+          'weight': 0.0992,
+          'isHistory': true,
+          'change': 0.0007999999999999952
+        },
+        {
+          'stockId': '002304.SZ',
+          'symbol': '洋河股份',
+          'weight': 0.0986,
+          'isHistory': true,
+          'change': -0.0006000000000000033
+        },
+        {
+          'stockId': '0700.HK',
+          'symbol': '腾讯控股',
+          'weight': 0.09050000000000001,
+          'isHistory': true,
+          'change': 0.0031000000000000055
+        },
+        {
+          'stockId': '600036.SH',
+          'symbol': '招商银行',
+          'weight': 0.0727,
+          'isHistory': true,
+          'change': -0.004600000000000007
+        },
+        {
+          'stockId': '600887.SH',
+          'symbol': '伊利股份',
+          'weight': 0.0719,
+          'isHistory': true,
+          'change': -0.00010000000000000286
+        },
+        {
+          'stockId': '0388.HK',
+          'symbol': '香港交易所',
+          'weight': 0.07150000000000001,
+          'isHistory': true,
+          'change': -0.015299999999999994
+        },
+        {
+          'stockId': '3690.HK',
+          'symbol': '美团-W',
+          'weight': 0.061900000000000004,
+          'isHistory': true,
+          'change': 0.003700000000000002
+        },
+        {
+          'stockId': '2269.HK',
+          'symbol': '药明生物',
+          'weight': 0.0437,
+          'isHistory': true,
+          'change': 0.017300000000000003
+        }
+      ],
+      'quarter': '2022Q3'
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2022-06-30 00:00:00',
+      'bond': [],
+      'stock': [
+        {
+          'stockId': '000858.SZ',
+          'symbol': '五粮液',
+          'weight': 0.09939999999999999,
+          'isHistory': true,
+          'change': 0.008599999999999983
+        },
+        {
+          'stockId': '002304.SZ',
+          'symbol': '洋河股份',
+          'weight': 0.0992,
+          'isHistory': true,
+          'change': 0.010099999999999998
+        },
+        {
+          'stockId': '000568.SZ',
+          'symbol': '泸州老窖',
+          'weight': 0.0989,
+          'isHistory': true,
+          'change': 0.008099999999999996
+        },
+        {
+          'stockId': '600519.SH',
+          'symbol': '贵州茅台',
+          'weight': 0.0984,
+          'isHistory': true,
+          'change': 0.0002999999999999947
+        },
+        {
+          'stockId': '0700.HK',
+          'symbol': '腾讯控股',
+          'weight': 0.0874,
+          'isHistory': true,
+          'change': -0.0092
+        },
+        {
+          'stockId': '0388.HK',
+          'symbol': '香港交易所',
+          'weight': 0.0868,
+          'isHistory': true,
+          'change': -0.003599999999999992
+        },
+        {
+          'stockId': '600036.SH',
+          'symbol': '招商银行',
+          'weight': 0.07730000000000001,
+          'isHistory': true,
+          'change': -0.020099999999999993
+        },
+        {
+          'stockId': '600887.SH',
+          'symbol': '伊利股份',
+          'weight': 0.07200000000000001,
+          'isHistory': true,
+          'change': -0.005399999999999988
+        },
+        {
+          'stockId': '3690.HK',
+          'symbol': '美团-W',
+          'weight': 0.0582,
+          'isHistory': true,
+          'change': 0.008000000000000007
+        },
+        {
+          'stockId': '2269.HK',
+          'symbol': '药明生物',
+          'weight': 0.0264,
+          'isHistory': false,
+          'change': 0.0264
+        }
+      ],
+      'quarter': '2022Q2'
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2022-03-31 00:00:00',
+      'bond': [],
+      'stock': [
+        {
+          'stockId': '600519.SH',
+          'symbol': '贵州茅台',
+          'weight': 0.0981,
+          'isHistory': true,
+          'change': 0.0011000000000000176
+        },
+        {
+          'stockId': '600036.SH',
+          'symbol': '招商银行',
+          'weight': 0.0974,
+          'isHistory': true,
+          'change': 0.014600000000000002
+        },
+        {
+          'stockId': '0700.HK',
+          'symbol': '腾讯控股',
+          'weight': 0.0966,
+          'isHistory': true,
+          'change': -0.004599999999999993
+        },
+        {
+          'stockId': '002415.SZ',
+          'symbol': '海康威视',
+          'weight': 0.0935,
+          'isHistory': true,
+          'change': -0.004799999999999999
+        },
+        {
+          'stockId': '000568.SZ',
+          'symbol': '泸州老窖',
+          'weight': 0.0908,
+          'isHistory': true,
+          'change': -0.006799999999999987
+        },
+        {
+          'stockId': '000858.SZ',
+          'symbol': '五粮液',
+          'weight': 0.0908,
+          'isHistory': true,
+          'change': -0.002699999999999994
+        },
+        {
+          'stockId': '0388.HK',
+          'symbol': '香港交易所',
+          'weight': 0.0904,
+          'isHistory': true,
+          'change': -0.0009000000000000119
+        },
+        {
+          'stockId': '002304.SZ',
+          'symbol': '洋河股份',
+          'weight': 0.0891,
+          'isHistory': true,
+          'change': -0.002699999999999994
+        },
+        {
+          'stockId': '600887.SH',
+          'symbol': '伊利股份',
+          'weight': 0.0774,
+          'isHistory': true,
+          'change': 0.0063
+        },
+        {
+          'stockId': '3690.HK',
+          'symbol': '美团-W',
+          'weight': 0.050199999999999995,
+          'isHistory': false,
+          'change': 0.0049999999999999975
+        }
+      ],
+      'quarter': '2022Q1'
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2021-12-31 00:00:00',
+      'bond': [],
+      'stock': [
+        {
+          'stockId': '0700.HK',
+          'symbol': '腾讯控股',
+          'weight': 0.1012,
+          'isHistory': true,
+          'change': 0.007500000000000007
+        },
+        {
+          'stockId': '002415.SZ',
+          'symbol': '海康威视',
+          'weight': 0.0983,
+          'isHistory': true,
+          'change': 0.0007000000000000062
+        },
+        {
+          'stockId': '000568.SZ',
+          'symbol': '泸州老窖',
+          'weight': 0.09759999999999999,
+          'isHistory': true,
+          'change': -0.001700000000000007
+        },
+        {
+          'stockId': '600519.SH',
+          'symbol': '贵州茅台',
+          'weight': 0.09699999999999999,
+          'isHistory': true,
+          'change': -0.0020000000000000157
+        },
+        {
+          'stockId': '000858.SZ',
+          'symbol': '五粮液',
+          'weight': 0.0935,
+          'isHistory': true,
+          'change': -0.004799999999999999
+        },
+        {
+          'stockId': '002304.SZ',
+          'symbol': '洋河股份',
+          'weight': 0.09179999999999999,
+          'isHistory': true,
+          'change': -0.0030000000000000165
+        },
+        {
+          'stockId': '0388.HK',
+          'symbol': '香港交易所',
+          'weight': 0.0913,
+          'isHistory': true,
+          'change': -0.003599999999999992
+        },
+        {
+          'stockId': '600036.SH',
+          'symbol': '招商银行',
+          'weight': 0.0828,
+          'isHistory': true,
+          'change': -0.0003000000000000086
+        },
+        {
+          'stockId': '600887.SH',
+          'symbol': '伊利股份',
+          'weight': 0.0711,
+          'isHistory': true,
+          'change': 0.013899999999999996
+        },
+        {
+          'stockId': '000001.SZ',
+          'symbol': '平安银行',
+          'weight': 0.0458,
+          'isHistory': true,
+          'change': -0.005499999999999998
+        }
+      ],
+      'quarter': '2021Q4'
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2021-09-30 00:00:00',
+      'bond': [
+        {
+          'bondId': '127046.SZ',
+          'symbol': '百润转债',
+          'type': '可转债',
+          'weight': 0,
+          'change': 0,
+          'issuer': '上海百润投资控股集团股份有限公司',
+          'issuerRating': 'AA'
+        }
+      ],
+      'stock': [
+        {
+          'stockId': '000568.SZ',
+          'symbol': '泸州老窖',
+          'weight': 0.0993,
+          'isHistory': true,
+          'change': 0.0021999999999999936
+        },
+        {
+          'stockId': '600519.SH',
+          'symbol': '贵州茅台',
+          'weight': 0.099,
+          'isHistory': true,
+          'change': 0.0015000000000000013
+        },
+        {
+          'stockId': '000858.SZ',
+          'symbol': '五粮液',
+          'weight': 0.0983,
+          'isHistory': true,
+          'change': -0.0005000000000000143
+        },
+        {
+          'stockId': '002415.SZ',
+          'symbol': '海康威视',
+          'weight': 0.09759999999999999,
+          'isHistory': true,
+          'change': 0.03299999999999999
+        },
+        {
+          'stockId': '0388.HK',
+          'symbol': '香港交易所',
+          'weight': 0.0949,
+          'isHistory': true,
+          'change': -0.004100000000000006
+        },
+        {
+          'stockId': '002304.SZ',
+          'symbol': '洋河股份',
+          'weight': 0.09480000000000001,
+          'isHistory': true,
+          'change': -0.001999999999999988
+        },
+        {
+          'stockId': '0700.HK',
+          'symbol': '腾讯控股',
+          'weight': 0.09369999999999999,
+          'isHistory': true,
+          'change': -0.004100000000000006
+        },
+        {
+          'stockId': '600036.SH',
+          'symbol': '招商银行',
+          'weight': 0.08310000000000001,
+          'isHistory': true,
+          'change': 0.015000000000000013
+        },
+        {
+          'stockId': '600887.SH',
+          'symbol': '伊利股份',
+          'weight': 0.0572,
+          'isHistory': false,
+          'change': 0.0572
+        },
+        {
+          'stockId': '000001.SZ',
+          'symbol': '平安银行',
+          'weight': 0.0513,
+          'isHistory': false,
+          'change': 0.0281
+        }
+      ],
+      'quarter': '2021Q3'
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2021-06-30 00:00:00',
+      'bond': [],
+      'stock': [
+        {
+          'stockId': '0388.HK',
+          'symbol': '香港交易所',
+          'weight': 0.099,
+          'isHistory': true,
+          'change': -0.0013999999999999846
+        },
+        {
+          'stockId': '000858.SZ',
+          'symbol': '五粮液',
+          'weight': 0.09880000000000001,
+          'isHistory': true,
+          'change': -0.0016999999999999932
+        },
+        {
+          'stockId': '0700.HK',
+          'symbol': '腾讯控股',
+          'weight': 0.0978,
+          'isHistory': true,
+          'change': 0.003500000000000003
+        },
+        {
+          'stockId': '600519.SH',
+          'symbol': '贵州茅台',
+          'weight': 0.0975,
+          'isHistory': true,
+          'change': -0.0010999999999999899
+        },
+        {
+          'stockId': '000568.SZ',
+          'symbol': '泸州老窖',
+          'weight': 0.0971,
+          'isHistory': true,
+          'change': 0.020900000000000002
+        },
+        {
+          'stockId': '002304.SZ',
+          'symbol': '洋河股份',
+          'weight': 0.0968,
+          'isHistory': true,
+          'change': 0.05
+        },
+        {
+          'stockId': '3690.HK',
+          'symbol': '美团-W',
+          'weight': 0.083,
+          'isHistory': true,
+          'change': -0.013499999999999998
+        },
+        {
+          'stockId': '600036.SH',
+          'symbol': '招商银行',
+          'weight': 0.0681,
+          'isHistory': true,
+          'change': 0.0025000000000000022
+        },
+        {
+          'stockId': '002415.SZ',
+          'symbol': '海康威视',
+          'weight': 0.0646,
+          'isHistory': true,
+          'change': 0.007400000000000004
+        },
+        {
+          'stockId': '3968.HK',
+          'symbol': '招商银行',
+          'weight': 0.030699999999999998,
+          'isHistory': false,
+          'change': 0.002199999999999997
+        }
+      ],
+      'quarter': '2021Q2'
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2021-03-31 00:00:00',
+      'bond': [],
+      'stock': [
+        {
+          'stockId': '000858.SZ',
+          'symbol': '五粮液',
+          'weight': 0.1005,
+          'isHistory': true,
+          'change': 0.0063
+        },
+        {
+          'stockId': '0388.HK',
+          'symbol': '香港交易所',
+          'weight': 0.10039999999999999,
+          'isHistory': true,
+          'change': 0.006399999999999989
+        },
+        {
+          'stockId': '600519.SH',
+          'symbol': '贵州茅台',
+          'weight': 0.0986,
+          'isHistory': true,
+          'change': 0.0021999999999999936
+        },
+        {
+          'stockId': '3690.HK',
+          'symbol': '美团-W',
+          'weight': 0.0965,
+          'isHistory': true,
+          'change': 0.0006000000000000033
+        },
+        {
+          'stockId': '0700.HK',
+          'symbol': '腾讯控股',
+          'weight': 0.0943,
+          'isHistory': true,
+          'change': -0.0005000000000000143
+        },
+        {
+          'stockId': '000568.SZ',
+          'symbol': '泸州老窖',
+          'weight': 0.0762,
+          'isHistory': true,
+          'change': -0.016299999999999995
+        },
+        {
+          'stockId': '600036.SH',
+          'symbol': '招商银行',
+          'weight': 0.06559999999999999,
+          'isHistory': false,
+          'change': 0.04809999999999999
+        },
+        {
+          'stockId': '002415.SZ',
+          'symbol': '海康威视',
+          'weight': 0.0572,
+          'isHistory': true,
+          'change': 0.007000000000000006
+        },
+        {
+          'stockId': '002304.SZ',
+          'symbol': '洋河股份',
+          'weight': 0.046799999999999994,
+          'isHistory': true,
+          'change': -0.048000000000000015
+        },
+        {
+          'stockId': '000001.SZ',
+          'symbol': '平安银行',
+          'weight': 0.0325,
+          'isHistory': false,
+          'change': 0.0325
+        }
+      ],
+      'quarter': '2021Q1'
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2020-12-31 00:00:00',
+      'bond': [],
+      'stock': [
+        {
+          'stockId': '600519.SH',
+          'symbol': '贵州茅台',
+          'weight': 0.0964,
+          'isHistory': true,
+          'change': 0.0012000000000000066
+        },
+        {
+          'stockId': '3690.HK',
+          'symbol': '美团-W',
+          'weight': 0.0959,
+          'isHistory': true,
+          'change': 0.042699999999999995
+        },
+        {
+          'stockId': '002304.SZ',
+          'symbol': '洋河股份',
+          'weight': 0.09480000000000001,
+          'isHistory': true,
+          'change': -0.0003999999999999837
+        },
+        {
+          'stockId': '0700.HK',
+          'symbol': '腾讯控股',
+          'weight': 0.09480000000000001,
+          'isHistory': true,
+          'change': -0.0002999999999999947
+        },
+        {
+          'stockId': '000858.SZ',
+          'symbol': '五粮液',
+          'weight': 0.0942,
+          'isHistory': true,
+          'change': -0.0005000000000000004
+        },
+        {
+          'stockId': '0388.HK',
+          'symbol': '香港交易所',
+          'weight': 0.094,
+          'isHistory': true,
+          'change': -0.000800000000000009
+        },
+        {
+          'stockId': '000568.SZ',
+          'symbol': '泸州老窖',
+          'weight': 0.0925,
+          'isHistory': true,
+          'change': -0.005099999999999993
+        },
+        {
+          'stockId': '002415.SZ',
+          'symbol': '海康威视',
+          'weight': 0.050199999999999995,
+          'isHistory': true,
+          'change': 0.0075
+        },
+        {
+          'stockId': '300015.SZ',
+          'symbol': '爱尔眼科',
+          'weight': 0.0354,
+          'isHistory': true,
+          'change': -0.013099999999999994
+        },
+        {
+          'stockId': '1579.HK',
+          'symbol': '颐海国际',
+          'weight': 0.030699999999999998,
+          'isHistory': false,
+          'change': 0.030699999999999998
+        }
+      ],
+      'quarter': '2020Q4'
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2020-09-30 00:00:00',
+      'bond': [],
+      'stock': [
+        {
+          'stockId': '000568.SZ',
+          'symbol': '泸州老窖',
+          'weight': 0.09759999999999999,
+          'isHistory': true,
+          'change': 0.0032999999999999974
+        },
+        {
+          'stockId': '002304.SZ',
+          'symbol': '洋河股份',
+          'weight': 0.09519999999999999,
+          'isHistory': false,
+          'change': 0.05879999999999999
+        },
+        {
+          'stockId': '600519.SH',
+          'symbol': '贵州茅台',
+          'weight': 0.09519999999999999,
+          'isHistory': true,
+          'change': 0.0007000000000000062
+        },
+        {
+          'stockId': '0700.HK',
+          'symbol': '腾讯控股',
+          'weight': 0.0951,
+          'isHistory': true,
+          'change': -0.0006000000000000033
+        },
+        {
+          'stockId': '0388.HK',
+          'symbol': '香港交易所',
+          'weight': 0.09480000000000001,
+          'isHistory': true,
+          'change': -0.0013999999999999846
+        },
+        {
+          'stockId': '000858.SZ',
+          'symbol': '五粮液',
+          'weight': 0.0947,
+          'isHistory': true,
+          'change': -0.00010000000000000286
+        },
+        {
+          'stockId': '3690.HK',
+          'symbol': '美团-W',
+          'weight': 0.053200000000000004,
+          'isHistory': true,
+          'change': -0.0187
+        },
+        {
+          'stockId': '300015.SZ',
+          'symbol': '爱尔眼科',
+          'weight': 0.048499999999999995,
+          'isHistory': true,
+          'change': 0.009099999999999997
+        },
+        {
+          'stockId': '1177.HK',
+          'symbol': '中国生物制药',
+          'weight': 0.0437,
+          'isHistory': true,
+          'change': -0.018499999999999996
+        },
+        {
+          'stockId': '002415.SZ',
+          'symbol': '海康威视',
+          'weight': 0.042699999999999995,
+          'isHistory': false,
+          'change': 0.042699999999999995
+        }
+      ],
+      'quarter': '2020Q3'
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2020-06-30 00:00:00',
+      'bond': [],
+      'stock': [
+        {
+          'stockId': '0388.HK',
+          'symbol': '香港交易所',
+          'weight': 0.0962,
+          'isHistory': true,
+          'change': 0.010900000000000007
+        },
+        {
+          'stockId': '0700.HK',
+          'symbol': '腾讯控股',
+          'weight': 0.09570000000000001,
+          'isHistory': true,
+          'change': -0.0031000000000000055
+        },
+        {
+          'stockId': '000858.SZ',
+          'symbol': '五粮液',
+          'weight': 0.09480000000000001,
+          'isHistory': true,
+          'change': -0.0005999999999999756
+        },
+        {
+          'stockId': '600519.SH',
+          'symbol': '贵州茅台',
+          'weight': 0.09449999999999999,
+          'isHistory': true,
+          'change': -0.0037000000000000227
+        },
+        {
+          'stockId': '000568.SZ',
+          'symbol': '泸州老窖',
+          'weight': 0.0943,
+          'isHistory': true,
+          'change': -0.0012000000000000066
+        },
+        {
+          'stockId': '3690.HK',
+          'symbol': '美团-W',
+          'weight': 0.0719,
+          'isHistory': false,
+          'change': 0.0719
+        },
+        {
+          'stockId': '1177.HK',
+          'symbol': '中国生物制药',
+          'weight': 0.0622,
+          'isHistory': true,
+          'change': -0.028500000000000004
+        },
+        {
+          'stockId': '2269.HK',
+          'symbol': '药明生物',
+          'weight': 0.0405,
+          'isHistory': true,
+          'change': -0.0313
+        },
+        {
+          'stockId': '600161.SH',
+          'symbol': '天坛生物',
+          'weight': 0.0398,
+          'isHistory': false,
+          'change': 0.0398
+        },
+        {
+          'stockId': '300015.SZ',
+          'symbol': '爱尔眼科',
+          'weight': 0.0394,
+          'isHistory': false,
+          'change': 0.0394
+        }
+      ],
+      'quarter': '2020Q2'
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2020-03-31 00:00:00',
+      'bond': [],
+      'stock': [
+        {
+          'stockId': '0700.HK',
+          'symbol': '腾讯控股',
+          'weight': 0.09880000000000001,
+          'isHistory': true,
+          'change': -0.0016999999999999932
+        },
+        {
+          'stockId': '600519.SH',
+          'symbol': '贵州茅台',
+          'weight': 0.09820000000000001,
+          'isHistory': true,
+          'change': 0.0009000000000000119
+        },
+        {
+          'stockId': '000568.SZ',
+          'symbol': '泸州老窖',
+          'weight': 0.0955,
+          'isHistory': true,
+          'change': -0.004100000000000006
+        },
+        {
+          'stockId': '000858.SZ',
+          'symbol': '五粮液',
+          'weight': 0.09539999999999998,
+          'isHistory': true,
+          'change': -0.0023000000000000104
+        },
+        {
+          'stockId': '1177.HK',
+          'symbol': '中国生物制药',
+          'weight': 0.0907,
+          'isHistory': true,
+          'change': -0.007199999999999984
+        },
+        {
+          'stockId': '0388.HK',
+          'symbol': '香港交易所',
+          'weight': 0.08529999999999999,
+          'isHistory': true,
+          'change': 0.0005999999999999756
+        },
+        {
+          'stockId': '002007.SZ',
+          'symbol': '华兰生物',
+          'weight': 0.0775,
+          'isHistory': true,
+          'change': 0.021200000000000004
+        },
+        {
+          'stockId': '2269.HK',
+          'symbol': '药明生物',
+          'weight': 0.0718,
+          'isHistory': true,
+          'change': -0.0015999999999999903
+        },
+        {
+          'stockId': '1093.HK',
+          'symbol': '石药集团',
+          'weight': 0.0694,
+          'isHistory': true,
+          'change': -0.0040999999999999925
+        },
+        {
+          'stockId': '600009.SH',
+          'symbol': '上海机场',
+          'weight': 0.0426,
+          'isHistory': true,
+          'change': -0.013500000000000005
+        }
+      ],
+      'quarter': '2020Q1'
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2019-12-31 00:00:00',
+      'bond': [
+        {
+          'bondId': '170205.IB',
+          'symbol': '17国开05',
+          'type': '金融债',
+          'weight': 0.006,
+          'change': -0.0014999999999999996,
+          'issuer': '国家开发银行',
+          'issuerRating': 'A+'
+        },
+        {
+          'bondId': '190402.IB',
+          'symbol': '19农发02',
+          'type': '金融债',
+          'weight': 0.0048,
+          'change': -0.0011000000000000003,
+          'issuer': '中国农业发展银行',
+          'issuerRating': 'A1'
+        }
+      ],
+      'stock': [
+        {
+          'stockId': '0700.HK',
+          'symbol': '腾讯控股',
+          'weight': 0.1005,
+          'isHistory': true,
+          'change': 0.011700000000000002
+        },
+        {
+          'stockId': '000568.SZ',
+          'symbol': '泸州老窖',
+          'weight': 0.09960000000000001,
+          'isHistory': true,
+          'change': 0.009900000000000006
+        },
+        {
+          'stockId': '1177.HK',
+          'symbol': '中国生物制药',
+          'weight': 0.09789999999999999,
+          'isHistory': true,
+          'change': 0.004899999999999974
+        },
+        {
+          'stockId': '000858.SZ',
+          'symbol': '五粮液',
+          'weight': 0.0977,
+          'isHistory': true,
+          'change': 0.005099999999999993
+        },
+        {
+          'stockId': '600519.SH',
+          'symbol': '贵州茅台',
+          'weight': 0.0973,
+          'isHistory': true,
+          'change': 0.003600000000000006
+        },
+        {
+          'stockId': '0388.HK',
+          'symbol': '香港交易所',
+          'weight': 0.08470000000000001,
+          'isHistory': true,
+          'change': -0.0007999999999999952
+        },
+        {
+          'stockId': '1093.HK',
+          'symbol': '石药集团',
+          'weight': 0.0735,
+          'isHistory': false,
+          'change': 0.0735
+        },
+        {
+          'stockId': '2269.HK',
+          'symbol': '药明生物',
+          'weight': 0.07339999999999999,
+          'isHistory': true,
+          'change': 0.003899999999999987
+        },
+        {
+          'stockId': '002007.SZ',
+          'symbol': '华兰生物',
+          'weight': 0.056299999999999996,
+          'isHistory': true,
+          'change': 0.0021999999999999936
+        },
+        {
+          'stockId': '600009.SH',
+          'symbol': '上海机场',
+          'weight': 0.056100000000000004,
+          'isHistory': true,
+          'change': 0.0049999999999999975
+        }
+      ],
+      'quarter': '2019Q4'
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2019-09-30 00:00:00',
+      'bond': [
+        {
+          'bondId': '170205.IB',
+          'symbol': '17国开05',
+          'type': '金融债',
+          'weight': 0.0075,
+          'change': -0.0132,
+          'issuer': '国家开发银行',
+          'issuerRating': 'AAA'
+        },
+        {
+          'bondId': '190402.IB',
+          'symbol': '19农发02',
+          'type': '金融债',
+          'weight': 0.0059,
+          'change': -0.010499999999999999,
+          'issuer': '中国农业发展银行',
+          'issuerRating': 'A+'
+        }
+      ],
+      'stock': [
+        {
+          'stockId': '600519.SH',
+          'symbol': '贵州茅台',
+          'weight': 0.09369999999999999,
+          'isHistory': true,
+          'change': -0.0050000000000000044
+        },
+        {
+          'stockId': '1177.HK',
+          'symbol': '中国生物制药',
+          'weight': 0.09300000000000001,
+          'isHistory': true,
+          'change': -0.007299999999999987
+        },
+        {
+          'stockId': '000858.SZ',
+          'symbol': '五粮液',
+          'weight': 0.0926,
+          'isHistory': true,
+          'change': -0.006400000000000003
+        },
+        {
+          'stockId': '000568.SZ',
+          'symbol': '泸州老窖',
+          'weight': 0.0897,
+          'isHistory': true,
+          'change': -0.012299999999999991
+        },
+        {
+          'stockId': '0700.HK',
+          'symbol': '腾讯控股',
+          'weight': 0.0888,
+          'isHistory': true,
+          'change': -0.003699999999999995
+        },
+        {
+          'stockId': '0388.HK',
+          'symbol': '香港交易所',
+          'weight': 0.0855,
+          'isHistory': true,
+          'change': -0.004699999999999996
+        },
+        {
+          'stockId': '1169.HK',
+          'symbol': '海尔电器(退市)',
+          'weight': 0.0755,
+          'isHistory': true,
+          'change': -0.007000000000000006
+        },
+        {
+          'stockId': '2269.HK',
+          'symbol': '药明生物',
+          'weight': 0.0695,
+          'isHistory': false,
+          'change': 0.0695
+        },
+        {
+          'stockId': '002007.SZ',
+          'symbol': '华兰生物',
+          'weight': 0.0541,
+          'isHistory': true,
+          'change': -0.0020999999999999977
+        },
+        {
+          'stockId': '600009.SH',
+          'symbol': '上海机场',
+          'weight': 0.051100000000000007,
+          'isHistory': true,
+          'change': -0.0175
+        }
+      ],
+      'quarter': '2019Q3'
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2019-06-30 00:00:00',
+      'bond': [
+        {
+          'bondId': '170205.IB',
+          'symbol': '17国开05',
+          'type': '金融债',
+          'weight': 0.0207,
+          'change': 0.0207,
+          'issuer': '国家开发银行',
+          'issuerRating': 'AAA'
+        },
+        {
+          'bondId': '190402.IB',
+          'symbol': '19农发02',
+          'type': '金融债',
+          'weight': 0.016399999999999998,
+          'change': 0.016399999999999998,
+          'issuer': '中国农业发展银行',
+          'issuerRating': 'A+'
+        }
+      ],
+      'stock': [
+        {
+          'stockId': '000568.SZ',
+          'symbol': '泸州老窖',
+          'weight': 0.102,
+          'isHistory': true,
+          'change': 0.012999999999999984
+        },
+        {
+          'stockId': '1177.HK',
+          'symbol': '中国生物制药',
+          'weight': 0.1003,
+          'isHistory': true,
+          'change': 0.0348
+        },
+        {
+          'stockId': '000858.SZ',
+          'symbol': '五粮液',
+          'weight': 0.099,
+          'isHistory': true,
+          'change': 0.0030000000000000027
+        },
+        {
+          'stockId': '600519.SH',
+          'symbol': '贵州茅台',
+          'weight': 0.0987,
+          'isHistory': true,
+          'change': 0.003500000000000003
+        },
+        {
+          'stockId': '0700.HK',
+          'symbol': '腾讯控股',
+          'weight': 0.0925,
+          'isHistory': true,
+          'change': 0.004100000000000006
+        },
+        {
+          'stockId': '0388.HK',
+          'symbol': '香港交易所',
+          'weight': 0.0902,
+          'isHistory': true,
+          'change': 0.0063
+        },
+        {
+          'stockId': '1169.HK',
+          'symbol': '海尔电器(退市)',
+          'weight': 0.0825,
+          'isHistory': true,
+          'change': 0.004100000000000006
+        },
+        {
+          'stockId': '600009.SH',
+          'symbol': '上海机场',
+          'weight': 0.06860000000000001,
+          'isHistory': true,
+          'change': 0.01220000000000001
+        },
+        {
+          'stockId': '002007.SZ',
+          'symbol': '华兰生物',
+          'weight': 0.0562,
+          'isHistory': true,
+          'change': -0.007000000000000006
+        },
+        {
+          'stockId': '600004.SH',
+          'symbol': '白云机场',
+          'weight': 0.0559,
+          'isHistory': false,
+          'change': 0.0559
+        }
+      ],
+      'quarter': '2019Q2'
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2019-03-31 00:00:00',
+      'bond': [],
+      'stock': [
+        {
+          'stockId': '000858.SZ',
+          'symbol': '五粮液',
+          'weight': 0.096,
+          'isHistory': true,
+          'change': 0.001799999999999996
+        },
+        {
+          'stockId': '600519.SH',
+          'symbol': '贵州茅台',
+          'weight': 0.09519999999999999,
+          'isHistory': true,
+          'change': -0.0059000000000000025
+        },
+        {
+          'stockId': '000568.SZ',
+          'symbol': '泸州老窖',
+          'weight': 0.08900000000000001,
+          'isHistory': true,
+          'change': 0.03820000000000001
+        },
+        {
+          'stockId': '0700.HK',
+          'symbol': '腾讯控股',
+          'weight': 0.08839999999999999,
+          'isHistory': true,
+          'change': 0.019599999999999992
+        },
+        {
+          'stockId': '0388.HK',
+          'symbol': '香港交易所',
+          'weight': 0.0839,
+          'isHistory': false,
+          'change': 0.0839
+        },
+        {
+          'stockId': '1169.HK',
+          'symbol': '海尔电器(退市)',
+          'weight': 0.0784,
+          'isHistory': true,
+          'change': 0.0354
+        },
+        {
+          'stockId': '1177.HK',
+          'symbol': '中国生物制药',
+          'weight': 0.0655,
+          'isHistory': false,
+          'change': 0.0529
+        },
+        {
+          'stockId': '002007.SZ',
+          'symbol': '华兰生物',
+          'weight': 0.0632,
+          'isHistory': true,
+          'change': 0.014600000000000002
+        },
+        {
+          'stockId': '600009.SH',
+          'symbol': '上海机场',
+          'weight': 0.0564,
+          'isHistory': true,
+          'change': 0.011799999999999998
+        },
+        {
+          'stockId': '0696.HK',
+          'symbol': '中国民航信息网络',
+          'weight': 0.0449,
+          'isHistory': false,
+          'change': 0.0368
+        }
+      ],
+      'quarter': '2019Q1'
+    },
+    {
+      'orderBookId': '005827.OF',
+      'date': '2018-12-31 00:00:00',
+      'bond': [
+        {
+          'bondId': '110049.SH',
+          'symbol': '海尔转债(退市)',
+          'type': '可转债',
+          'weight': 0.0003,
+          'change': 0.0003,
+          'issuer': '海尔智家股份有限公司',
+          'issuerRating': 'AAA'
+        }
+      ],
+      'stock': [
+        {
+          'stockId': '600519.SH',
+          'symbol': '贵州茅台',
+          'weight': 0.1011,
+          'isHistory': false,
+          'change': 0.1011
+        },
+        {
+          'stockId': '000858.SZ',
+          'symbol': '五粮液',
+          'weight': 0.0942,
+          'isHistory': false,
+          'change': 0.0942
+        },
+        {
+          'stockId': '0700.HK',
+          'symbol': '腾讯控股',
+          'weight': 0.0688,
+          'isHistory': false,
+          'change': 0.0688
+        },
+        {
+          'stockId': '002415.SZ',
+          'symbol': '海康威视',
+          'weight': 0.0608,
+          'isHistory': false,
+          'change': 0.0608
+        },
+        {
+          'stockId': '000568.SZ',
+          'symbol': '泸州老窖',
+          'weight': 0.0508,
+          'isHistory': false,
+          'change': 0.0508
+        },
+        {
+          'stockId': '002007.SZ',
+          'symbol': '华兰生物',
+          'weight': 0.048600000000000004,
+          'isHistory': false,
+          'change': 0.048600000000000004
+        },
+        {
+          'stockId': '600009.SH',
+          'symbol': '上海机场',
+          'weight': 0.0446,
+          'isHistory': false,
+          'change': 0.0446
+        },
+        {
+          'stockId': '1169.HK',
+          'symbol': '海尔电器(退市)',
+          'weight': 0.043,
+          'isHistory': false,
+          'change': 0.043
+        },
+        {
+          'stockId': '0694.HK',
+          'symbol': '北京首都机场股份',
+          'weight': 0.0415,
+          'isHistory': false,
+          'change': 0.0415
+        },
+        {
+          'stockId': '1530.HK',
+          'symbol': '三生制药',
+          'weight': 0.0407,
+          'isHistory': false,
+          'change': 0.0407
+        }
+      ],
+      'quarter': '2018Q4'
+    }
+  ],
+  'holderStructure': [
+    {
+      'orderBookId': '005827.OF',
+      'datetime': '2018-12-31 00:00:00',
+      'instl': 48692684.99,
+      'instlWeight': 2.13,
+      'retail': 2232485225.84,
+      'retailWeight': 97.87
+    },
+    {
+      'orderBookId': '005827.OF',
+      'datetime': '2019-06-30 00:00:00',
+      'instl': 113865238.38,
+      'instlWeight': 6.15,
+      'retail': 1738168720.38,
+      'retailWeight': 93.85
+    },
+    {
+      'orderBookId': '005827.OF',
+      'datetime': '2019-12-31 00:00:00',
+      'instl': 892174137.28,
+      'instlWeight': 15.56,
+      'retail': 4841702474.31,
+      'retailWeight': 84.44
+    },
+    {
+      'orderBookId': '005827.OF',
+      'datetime': '2020-06-30 00:00:00',
+      'instl': 4141246516.05,
+      'instlWeight': 44.73,
+      'retail': 5117582913.55,
+      'retailWeight': 55.27
+    },
+    {
+      'orderBookId': '005827.OF',
+      'datetime': '2020-12-31 00:00:00',
+      'instl': 5451613489.77,
+      'instlWeight': 23.08,
+      'retail': 18169998486.34,
+      'retailWeight': 76.92
+    },
+    {
+      'orderBookId': '005827.OF',
+      'datetime': '2021-06-30 00:00:00',
+      'instl': 3027223849.42,
+      'instlWeight': 10.15,
+      'retail': 26792203640.95,
+      'retailWeight': 89.85
+    },
+    {
+      'orderBookId': '005827.OF',
+      'datetime': '2021-12-31 00:00:00',
+      'instl': 728875846.54,
+      'instlWeight': 2.78,
+      'retail': 25456255064.44,
+      'retailWeight': 97.22
+    },
+    {
+      'orderBookId': '005827.OF',
+      'datetime': '2022-06-30 00:00:00',
+      'instl': 477999903.17,
+      'instlWeight': 1.82,
+      'retail': 25724615232.07,
+      'retailWeight': 98.18
+    }
+  ]
+};
+
+export { fundBasicInfo, realTimeValuationArr, performanceSummary, holdingAnalysis };
