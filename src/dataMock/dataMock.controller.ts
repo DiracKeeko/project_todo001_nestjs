@@ -1,7 +1,7 @@
 import { Controller, Get } from '@nestjs/common';
 import { DataMockService } from './dataMock.service';
 
-@Controller("/mock/fundOverview")
+@Controller("/mock/fund/fundOverview")
 export class DataMockController {
   constructor(private readonly dataMockService: DataMockService) {}
 
