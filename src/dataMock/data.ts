@@ -2,10 +2,12 @@ import { Random } from 'mockjs';
 import { UserInfo, FundBasicInfo, RealTimeValuationItem, PerformanceSummary, HoldingAnalysis } from './constant';
 
 const userInfo: UserInfo = {
-  id: Random.integer(100, 999).OF,
+  id: Random.integer(100, 999),
   name: Random.cword(2, 3),
   age: Random.integer(15, 37),
   email: Random.email(),
+  symbol: `symbol${Random.string(5)}`,
+  hobbies: new Array(Random.integer(1, 3)).fill(null).map(() => Random.cword(2, 3))
 };
 
 const fundBasicInfo: FundBasicInfo = {

@@ -3,6 +3,8 @@ type UserInfo = {
   name: string;
   age: number;
   email: string;
+  symbol: string;
+  hobbies: string[];
 }
 
 type FundBasicInfo = {
