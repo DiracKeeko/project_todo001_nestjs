@@ -1,4 +1,12 @@
-import { FundBasicInfo, RealTimeValuationItem, PerformanceSummary, HoldingAnalysis } from './constant';
+import { Random } from 'mockjs';
+import { UserInfo, FundBasicInfo, RealTimeValuationItem, PerformanceSummary, HoldingAnalysis } from './constant';
+
+const userInfo: UserInfo = {
+  id: Random.integer(100, 999).OF,
+  name: Random.cword(2, 3),
+  age: Random.integer(15, 37),
+  email: Random.email(),
+};
 
 const fundBasicInfo: FundBasicInfo = {
   'orderBookId': '005827.OF',
@@ -19618,4 +19626,4 @@ const holdingAnalysis: HoldingAnalysis = {
   ]
 };
 
-export { fundBasicInfo, realTimeValuationArr, performanceSummary, holdingAnalysis };
+export { userInfo, fundBasicInfo, realTimeValuationArr, performanceSummary, holdingAnalysis };

@@ -1,3 +1,10 @@
+type UserInfo = {
+  id: number;
+  name: string;
+  age: number;
+  email: string;
+}
+
 type FundBasicInfo = {
   orderBookId: string;
   accNetValue: number;
@@ -392,4 +399,4 @@ type HoldingAnalysis = {
   }[];
 }
 
-export type { FundBasicInfo, RealTimeValuationItem, PerformanceSummary, HoldingAnalysis };
+export type { UserInfo, FundBasicInfo, RealTimeValuationItem, PerformanceSummary, HoldingAnalysis };

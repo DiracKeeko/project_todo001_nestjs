@@ -5,12 +5,17 @@ import { DataMockService } from './dataMock.service';
 export class DataMockController {
   constructor(private readonly dataMockService: DataMockService) {}
 
-  @Get("/fundBasicInfo") // http://localhost:6006/api/mock/fundOverview/fundBasicInfo
+  @Get("/userInfo") // http://localhost:7158/api/mock/fund/fundOverview/userInfo
+  getUserInfo() {
+    return this.dataMockService.getUserInfo();
+  }
+
+  @Get("/fundBasicInfo") // http://localhost:7158/api/mock/fund/fundOverview/fundBasicInfo
   getFundBasicInfo() {
     return this.dataMockService.getFundBasicInfo();
   }
 
-  @Get("/realTimeValuation") // http://localhost:6006/api/mock/fundOverview/realTimeValuation
+  @Get("/realTimeValuation")
   getRealTimeValuationArr() {
     return this.dataMockService.getRealTimeValuation();
   }
@@ -25,7 +30,7 @@ export class DataMockController {
     return this.dataMockService.getHoldingAnalysis();
   }
 
-  @Get("/") // http://localhost:6006/api/mock/fundOverview
+  @Get("/") // http://localhost:7158/api/mock/fund/fundOverview/
   getDataMock(): string {
     return this.dataMockService.getDataMock();
   }
