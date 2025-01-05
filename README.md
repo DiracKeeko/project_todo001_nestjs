@@ -34,4 +34,5 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-
+## Fix lint error
+$ npm run lint --fix

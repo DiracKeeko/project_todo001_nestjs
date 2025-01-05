@@ -1,5 +1,11 @@
 import { Random } from 'mockjs';
-import { UserInfo, FundBasicInfo, RealTimeValuationItem, PerformanceSummary, HoldingAnalysis } from './constant';
+import {
+  UserInfo,
+  FundBasicInfo,
+  RealTimeValuationItem,
+  PerformanceSummary,
+  HoldingAnalysis
+} from './constant';
 
 const userInfo: UserInfo = {
   id: Random.integer(100, 999),
