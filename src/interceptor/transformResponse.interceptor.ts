@@ -13,8 +13,10 @@ export class TransformResponseInterceptor<T> implements NestInterceptor<T, Respo
       map((data) => {
         return {
           data,
-          code: 0,
-          message: 'success'
+          returnInfo: {
+            returnCode: 'SUC0000',
+            message: '成功'
+          }
         };
       })
     );
