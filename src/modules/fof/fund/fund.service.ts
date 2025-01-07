@@ -15,7 +15,7 @@ import {
 } from './data';
 
 @Injectable()
-export class DataMockService {
+export class FundService {
   getDataMock(): string {
     return 'hello dataMock';
   }

@@ -2,12 +2,12 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 
-import { DataMockModule } from './dataMock/dataMock.module';
+import { FundModule } from './modules/fof/fund/fund.module';
 
-const customizedModuleArr = [DataMockModule];
+const customizedModuleArr = [FundModule];
 
 @Module({
-  imports: [...customizedModuleArr],
+  imports: customizedModuleArr,
   controllers: [AppController],
   providers: [AppService]
 })

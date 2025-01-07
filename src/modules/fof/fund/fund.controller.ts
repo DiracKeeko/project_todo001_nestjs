@@ -1,37 +1,37 @@
 import { Controller, Get } from '@nestjs/common';
-import { DataMockService } from './dataMock.service';
+import { FundService } from './fund.service';
 
 @Controller('/mock/fund/fundOverview')
-export class DataMockController {
-  constructor(private readonly dataMockService: DataMockService) {}
+export class FundController {
+  constructor(private readonly fundService: FundService) {}
 
   @Get('/userInfo') // http://localhost:7158/api/mock/fund/fundOverview/userInfo
   getUserInfo() {
-    return this.dataMockService.getUserInfo();
+    return this.fundService.getUserInfo();
   }
 
   @Get('/fundBasicInfo') // http://localhost:7158/api/mock/fund/fundOverview/fundBasicInfo
   getFundBasicInfo() {
-    return this.dataMockService.getFundBasicInfo();
+    return this.fundService.getFundBasicInfo();
   }
 
   @Get('/realTimeValuation')
   getRealTimeValuationArr() {
-    return this.dataMockService.getRealTimeValuation();
+    return this.fundService.getRealTimeValuation();
   }
 
   @Get('/performanceSummary')
   getPerformanceSummary() {
-    return this.dataMockService.getPerformanceSummary();
+    return this.fundService.getPerformanceSummary();
   }
 
   @Get('/holdingAnalysis')
   getHoldingAnalysis() {
-    return this.dataMockService.getHoldingAnalysis();
+    return this.fundService.getHoldingAnalysis();
   }
 
   @Get('/') // http://localhost:7158/api/mock/fund/fundOverview/
   getDataMock(): string {
-    return this.dataMockService.getDataMock();
+    return this.fundService.getDataMock();
   }
 }
